@@ -20,3 +20,9 @@ After recognition, we will calculate which point to fight.
 * **If is the first point**, the plane will fly along the straight.  
 * **If is the second point**, the plane will fly along the second arc to the point 2.  
 * **If is the third point**, The plane will fly along the third arc to the point 3, or the plane also an change the post to perpendicular to the ground and back to the point 3.
+
+## How to Use
+使用时  
+*   先使用get_relative_coordinate 方法将三个箱子的坐标点相对于起点的坐标值计算出来
+*   将结果作为参数代入get_first_point并将返回值作为参数代入set_path
+*   set_path中的变量path就是坐标点的list，这个路径从起点出发，到最后一个坐标点识别完结束。
