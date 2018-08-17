@@ -43,8 +43,8 @@ def set_first_go_path(a1, a2, a3, angle, n1, n2):
     s1 = math.atan(k1)
     temp_c = coordinate()
     for i in range(0, n1):
-        temp_c.longitude = r * cos(s0 + i / (n1 - 1) * (s1 - s0)) + o.longitude
-        temp_c.latitude = r * sin(s0 + i / (n1 - 1) * (s1 - s0)) + o.latitude
+        temp_c.longitude = r * math.cos(s0 + i / (n1 - 1) * (s1 - s0)) + o.longitude
+        temp_c.latitude = r * math.sin(s0 + i / (n1 - 1) * (s1 - s0)) + o.latitude
         temp_c.height = i / (n1 - 1) * a1.height
         x[i] = temp_c
 
@@ -92,8 +92,8 @@ def set_second_go_path(p2, p3, k1, k2, angle, n):
     x = []
     temp_c = coordinate()
     for i in range(0, n):
-        temp_c.longitude = r * cos(s_begin + i / (n - 1) * (s_end - s_begin)) + o.longitude
-        temp_c.latitude = r * sin(s_begin + i / (n - 1) * (s_end - s_begin)) + o.latitude
+        temp_c.longitude = r * math.cos(s_begin + i / (n - 1) * (s_end - s_begin)) + o.longitude
+        temp_c.latitude = r * math.sin(s_begin + i / (n - 1) * (s_end - s_begin)) + o.latitude
         temp_c.height = p2.height + i / (n - 1) * (p3.height - p2.height)
         x[i] = temp_c
     return x
@@ -137,7 +137,7 @@ def set_path(x):  # x是三个坐标点的集合
     k1 = p1.latitude * 1.0 / (p1.longitude * 1.0)
     k2 = (p2.latitude - p1.latitude) * 1.0 / ((p2.longitude - p1.longitude) * 1.0)
     k3 = (p3.latitude - p1.latitude) * 1.0 / ((p3.longitude - p1.longitude) * 1.0)
-    path = set_first_go_path(p1, p2, p3, get_first_angle(a1, q2), 100, 100) + set_second_go_path(p2, p3, k2, k3,get_second_angle(k2,k3),200)
+    path = set_first_go_path(p1, p2, p3, get_first_angle(p1, p2), 100, 100) + set_second_go_path(p2, p3, k2, k3,get_second_angle(k2,k3),200)
     # path为路径的集合
 
 
