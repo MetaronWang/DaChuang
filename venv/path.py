@@ -71,6 +71,7 @@ def set_first_go_path(a1, a2, a3, angle, n1, n2):
 
 def set_second_go_path(p1,p2, p3,angle, n):
     x = []
+    angle = angle+(math.pi*2 - angle)*2/3
     a1 = coordinate
     a2 = coordinate
     a1.latitude = p2.latitude - p3.latitude
@@ -145,3 +146,5 @@ def set_path(x):  # x是三个坐标点的集合
     # path为路径的集合
 
 
+def set_bomb(Point,p1,p2,p3)
+    
