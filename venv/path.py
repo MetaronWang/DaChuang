@@ -46,6 +46,8 @@ def set_first_go_path(a1, a2, a3, angle, n1, n2):
         dir=-1
     else:
         dir=1
+    dir = dir * tan1 * tan2 / (math.fabs(tan1) * math.fabs(tan2))
+    dir = dir * a1.latitude / (math.fabs(a1.latitude))
     k = dir * a1.longitude / a1.latitude
     temp = pow(1 + pow(k, 2), 0.5)
     o = coordinate
@@ -86,13 +88,15 @@ def set_second_go_path(p1,p2, p3,angle, n):
         dir = -1
     else:
         dir = 1
+    dir = dir * tan1 * tan2 / (math.fabs(tan1) * math.fabs(tan2))
+    dir = dir * a1.latitude / (math.fabs(a1.latitude))
     k = dir * a1.longitude / a1.latitude
     temp = pow(1 + pow(k, 2), 0.5)
     o = coordinate
-    o.latitude = a1.latitude / 2 - (r * k) / temp
-    o.longitude = a1.longitude / 2 - r / temp
-    k0 = o.latitude / o.longitude
-    k1 = (a1.latitude - o.longitude) / (a1.latitude - o.latitude)
+    o.latitude = a1.latitude / 2 - (r * k) / temp + p3.latitude
+    o.longitude = a1.longitude / 2 - r / temp + p3.longitude
+    k1 = (o.latitude-p3.latitude) / (o.longitude-p3.longitude)
+    k0 = (p2.latitude - o.longitude) / (p2.latitude - o.latitude)
     s0 = math.atan(k0)
     s1 = math.atan(k1)
     temp_c = coordinate()
@@ -144,7 +148,7 @@ def set_path(x):  # x是三个坐标点的集合
     k3 = (p3.latitude - p1.latitude) * 1.0 / ((p3.longitude - p1.longitude) * 1.0)
     path = set_first_go_path(p1, p2, p3, get_first_angle(p1, p2), 100, 100) + set_second_go_path(p1,p2, p3, get_second_angle(p1,p2,p3),200)
     # path为路径的集合
+    return path
 
 
-def set_bomb(Point,p1,p2,p3)
     
