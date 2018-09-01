@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfc7116-ae45-49ae-94ac-bb1c4d4d79e1" name="Default Changelist" comment="Change the way find the O">
+    <list default="true" id="abfc7116-ae45-49ae-94ac-bb1c4d4d79e1" name="Default Changelist" comment="find the first and second O, find the direction of the circle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/path_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/path_2.py" afterDir="false" />
     </list>
@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/DaChuang$Path.coverage" NAME="Path Coverage Results" MODIFIED="1532743142301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/DaChuang_py$Path.coverage" NAME="Path Coverage Results" MODIFIED="1535425590247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/DaChuang_py$path__1_.coverage" NAME="path (1) Coverage Results" MODIFIED="1535456832835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/DaChuang_py$path_2.coverage" NAME="path_2 Coverage Results" MODIFIED="1535457731273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/DaChuang_py$path_2.coverage" NAME="path_2 Coverage Results" MODIFIED="1535619410054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1245590465">
@@ -80,17 +80,31 @@
       <file leaf-file-name="path_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/path_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+            <state relative-caret-position="695">
+              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
               <folding>
-                <element signature="e#64#144#0" />
-                <element signature="e#183#746#0" />
-                <element signature="e#776#840#0" />
-                <element signature="e#876#969#0" />
-                <element signature="e#866#1328#0" />
-                <element signature="e#1487#1678#0" />
-                <element signature="e#1785#1975#0" />
+                <element signature="e#87#175#0" />
+                <element signature="e#214#777#0" />
+                <element signature="e#807#871#0" />
+                <element signature="e#933#1026#0" />
+                <element signature="e#1069#1531#0" />
+                <element signature="e#1578#1769#0" />
+                <element signature="e#1810#2000#0" />
+                <element signature="e#2026#2368#0" />
+                <element signature="e#2440#3103#0" />
+                <element signature="e#2783#3143#0" />
+                <element signature="e#3524#4115#0" />
+                <element signature="e#3159#3715#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="116" column="16" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -149,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535458246405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="find the first and second O, find the direction of the circle">
+      <created>1535558375810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535558375810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -511,23 +532,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +561,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="Change Path.py" />
     <MESSAGE value="Change the way find the O" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the way find the O" />
+    <MESSAGE value="find the first and second O, find the direction of the circle" />
+    <option name="LAST_COMMIT_MESSAGE" value="find the first and second O, find the direction of the circle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,16 +579,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/path_2.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding>
+            <element signature="e#87#175#0" />
+            <element signature="e#214#777#0" />
+            <element signature="e#807#871#0" />
+            <element signature="e#933#1026#0" />
+            <element signature="e#1069#1531#0" />
+            <element signature="e#1578#1769#0" />
+            <element signature="e#1810#2000#0" />
+            <element signature="e#2026#2368#0" />
+            <element signature="e#2440#3103#0" />
+            <element signature="e#2783#3143#0" />
+            <element signature="e#3524#4115#0" />
+            <element signature="e#3159#3715#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/path_2.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <element signature="e#64#144#0" />
-            <element signature="e#183#746#0" />
-            <element signature="e#776#840#0" />
-            <element signature="e#876#969#0" />
-            <element signature="e#866#1328#0" />
-            <element signature="e#1487#1678#0" />
-            <element signature="e#1785#1975#0" />
+            <element signature="e#87#175#0" />
+            <element signature="e#214#777#0" />
+            <element signature="e#807#871#0" />
+            <element signature="e#933#1026#0" />
+            <element signature="e#1069#1531#0" />
+            <element signature="e#1578#1769#0" />
+            <element signature="e#1810#2000#0" />
+            <element signature="e#2026#2368#0" />
+            <element signature="e#2440#3103#0" />
+            <element signature="e#2783#3143#0" />
+            <element signature="e#3524#4115#0" />
+            <element signature="e#3159#3715#0" />
           </folding>
         </state>
       </provider>
@@ -693,23 +741,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="192" column="22" lean-forward="true" selection-start-line="173" selection-end-line="192" selection-end-column="22" />
+        <state relative-caret-position="829">
+          <caret line="116" column="16" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/path_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+        <state relative-caret-position="695">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
           <folding>
-            <element signature="e#64#144#0" />
-            <element signature="e#183#746#0" />
-            <element signature="e#776#840#0" />
-            <element signature="e#876#969#0" />
-            <element signature="e#866#1328#0" />
-            <element signature="e#1487#1678#0" />
-            <element signature="e#1785#1975#0" />
+            <element signature="e#87#175#0" />
+            <element signature="e#214#777#0" />
+            <element signature="e#807#871#0" />
+            <element signature="e#933#1026#0" />
+            <element signature="e#1069#1531#0" />
+            <element signature="e#1578#1769#0" />
+            <element signature="e#1810#2000#0" />
+            <element signature="e#2026#2368#0" />
+            <element signature="e#2440#3103#0" />
+            <element signature="e#2783#3143#0" />
+            <element signature="e#3524#4115#0" />
+            <element signature="e#3159#3715#0" />
           </folding>
         </state>
       </provider>
