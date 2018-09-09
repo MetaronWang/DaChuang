@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfc7116-ae45-49ae-94ac-bb1c4d4d79e1" name="Default Changelist" comment="Finsh recognition path">
+    <list default="true" id="abfc7116-ae45-49ae-94ac-bb1c4d4d79e1" name="Default Changelist" comment="Finsh the first versions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flight_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_control.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/path_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/path_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +17,7 @@
     <SUITE FILE_PATH="coverage/DaChuang$Path.coverage" NAME="Path Coverage Results" MODIFIED="1532743142301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/DaChuang_py$Path.coverage" NAME="Path Coverage Results" MODIFIED="1535425590247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/DaChuang_py$path__1_.coverage" NAME="path (1) Coverage Results" MODIFIED="1535456832835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/DaChuang_py$path_2.coverage" NAME="path_2 Coverage Results" MODIFIED="1535897524942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/DaChuang_py$path_2.coverage" NAME="path_2 Coverage Results" MODIFIED="1535897716038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1245590465">
@@ -77,21 +78,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="path_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="path_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/path_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state>
+              <caret selection-end-column="21" />
               <folding>
                 <element signature="e#214#777#0" />
                 <element signature="e#807#871#0" />
-                <element signature="e#2429#3073#0" />
-                <element signature="e#3049#3442#0" />
-                <element signature="e#4120#4142#0" />
-                <element signature="e#4117#4730#0" />
-                <element signature="e#4399#4446#0" />
-                <element signature="e#4473#4520#0" />
-                <element signature="e#4687#4896#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight_control.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flight_control.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +138,7 @@
         <option value="$PROJECT_DIR$/venv/path.py" />
         <option value="$PROJECT_DIR$/venv/path.py" />
         <option value="$PROJECT_DIR$/venv/path_2.py" />
+        <option value="$PROJECT_DIR$/flight_control.py" />
       </list>
     </option>
   </component>
@@ -496,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535798336226</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finsh the first versions">
+      <created>1535897566939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535897566939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,9 +522,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -529,23 +543,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +574,8 @@
     <MESSAGE value="Change the way find the O" />
     <MESSAGE value="find the first and second O, find the direction of the circle" />
     <MESSAGE value="Finsh recognition path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finsh recognition path" />
+    <MESSAGE value="Finsh the first versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finsh the first versions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,7 +587,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/venv/path_2.py</url>
-          <line>198</line>
+          <line>197</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
@@ -582,18 +597,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/path_2.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3806">
+          <caret line="173" column="13" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
+          <folding>
+            <element signature="e#214#777#0" />
+            <element signature="e#807#871#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/path_2.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4180">
           <caret line="190" column="23" lean-forward="true" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
           <folding>
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
-            <element signature="e#2429#3073#0" />
-            <element signature="e#3049#3442#0" />
-            <element signature="e#4120#4142#0" />
-            <element signature="e#4117#4730#0" />
-            <element signature="e#4399#4446#0" />
-            <element signature="e#4473#4520#0" />
-            <element signature="e#4687#4896#0" />
           </folding>
         </state>
       </provider>
@@ -612,13 +631,6 @@
           <folding>
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
-            <element signature="e#2429#3073#0" />
-            <element signature="e#3049#3442#0" />
-            <element signature="e#4120#4142#0" />
-            <element signature="e#4117#4730#0" />
-            <element signature="e#4399#4446#0" />
-            <element signature="e#4473#4520#0" />
-            <element signature="e#4687#4896#0" />
           </folding>
         </state>
       </provider>
@@ -637,13 +649,6 @@
           <folding>
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
-            <element signature="e#2429#3073#0" />
-            <element signature="e#3049#3442#0" />
-            <element signature="e#4120#4142#0" />
-            <element signature="e#4117#4730#0" />
-            <element signature="e#4399#4446#0" />
-            <element signature="e#4473#4520#0" />
-            <element signature="e#4687#4896#0" />
           </folding>
         </state>
       </provider>
@@ -655,13 +660,6 @@
           <folding>
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
-            <element signature="e#2429#3073#0" />
-            <element signature="e#3049#3442#0" />
-            <element signature="e#4120#4142#0" />
-            <element signature="e#4117#4730#0" />
-            <element signature="e#4399#4446#0" />
-            <element signature="e#4473#4520#0" />
-            <element signature="e#4687#4896#0" />
           </folding>
         </state>
       </provider>
@@ -802,18 +800,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/path_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state>
+          <caret selection-end-column="21" />
           <folding>
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
-            <element signature="e#2429#3073#0" />
-            <element signature="e#3049#3442#0" />
-            <element signature="e#4120#4142#0" />
-            <element signature="e#4117#4730#0" />
-            <element signature="e#4399#4446#0" />
-            <element signature="e#4473#4520#0" />
-            <element signature="e#4687#4896#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

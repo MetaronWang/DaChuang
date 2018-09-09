@@ -162,7 +162,7 @@ def boom_third(p1,p2,p3,n):
     r = pow(pow(o.latitude - p2.latitude, 2) + pow(o.longitude - p2.longitude, 2), 0.5)
     d = -1 * direction(relative_coordinate(p2, p3), relative_coordinate(p1, p3))
     a1 = get_angle(p2, o)
-    a2 = get_angle(p2, o)
+    a2 = get_angle(p3, o)
     if (d == -1):
         if (a2 > a1):
             a2 -= 2 * math.pi
@@ -172,7 +172,6 @@ def boom_third(p1,p2,p3,n):
     a_i = math.fabs(a1 - a2) / n
     h_i = (p2.height - p1.height) / n
     path = []
-    temp = coordinate()
     for i in range(0, n):
         path.append(coordinate())
         path[i].longitude = r * math.cos(a1 + a_i * i * d) + o.longitude
@@ -197,8 +196,9 @@ def set_path(x):
     for j in the_line(p1,p2,50):
         show_coordinate(j)
     print "第二个"
-    for k in second_circle(p1,p2,p3,50):
+    for k in boom_third(p1,p2,p3,50):
         show_coordinate(k)
+
 
 
 a1 = coordinate()
