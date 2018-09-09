@@ -189,18 +189,20 @@ def set_path(x):
         temp_p = p3
         p3 = p2
         p2 = temp_p
-    print "第一个"
-    for i in first_circle(p1,p2,50):
-        show_coordinate(i)
-    print "直线"
-    for j in the_line(p1,p2,50):
-        show_coordinate(j)
-    print "第二个"
-    for k in boom_third(p1,p2,p3,50):
-        show_coordinate(k)
+    return first_circle(p1,p2,50)+the_line(p1,p2,50)+second_circle(p1,p2,p3,50)
 
+'''输入坐标点之后，调用该方法，返回识别的路径'''
+def main(o,a1,a2,a3):
+    return set_path([relative_coordinate(a1,o),relative_coordinate(a2,0),relative_coordinate(a3,o)])
 
+def get_GPS(p,o):
+    p_t = coordinate()
+    p_t.latitude = p.latitude + o.latitude
+    p_t.longitude = p.longitude + o.longitude
+    p_t.height = p.height + o.height
+    return p_t
 
+'''这里是举个例子，如何输入坐标点'''
 a1 = coordinate()
 a2 = coordinate()
 a3 = coordinate()
@@ -218,8 +220,13 @@ a3.longitude = float(5.0)
 a3.latitude = float(4.0)
 a3.height = float(20.0)
 
-x = [a1,a2,a3]
-set_path(x)
+o.longitude = float(0)
+o.latitude = float(0)
+o.height = float(0)
 
+x = main(o ,a1,a2,a3)
+'''x是路径的list,每取出一个都要做一次get_GPS（），这样就是原本输入的GPS坐标了，同时要将list顶部的元素移除'''
+'''后面还要有一个投哪个的分支判别，判断是哪个就把哪个的boom方法返回的list“+”到x上'''
+'''当x取尽之后，就让飞机返航'''
 
 

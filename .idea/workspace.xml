@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfc7116-ae45-49ae-94ac-bb1c4d4d79e1" name="Default Changelist" comment="Finsh the first versions">
+    <list default="true" id="abfc7116-ae45-49ae-94ac-bb1c4d4d79e1" name="Default Changelist" comment="De Some bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_control.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/path_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/path_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,26 +77,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="path_2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="path_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/path_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="21" />
+            <state relative-caret-position="815">
+              <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
               <folding>
+                <element signature="e#59#175#0" />
                 <element signature="e#214#777#0" />
                 <element signature="e#807#871#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flight_control.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flight_control.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#933#1092#0" />
+                <element signature="e#1135#1533#0" />
+                <element signature="e#1580#1779#0" />
+                <element signature="e#1820#2010#0" />
+                <element signature="e#2051#2465#0" />
+                <element signature="e#2512#3225#0" />
+                <element signature="e#3265#3617#0" />
+                <element signature="e#3668#4222#0" />
+                <element signature="e#4257#4289#0" />
+                <element signature="e#4323#5050#0" />
+                <element signature="e#5579#5738#0" />
               </folding>
             </state>
           </provider>
@@ -137,8 +136,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/venv/path.py" />
         <option value="$PROJECT_DIR$/venv/path.py" />
-        <option value="$PROJECT_DIR$/venv/path_2.py" />
         <option value="$PROJECT_DIR$/flight_control.py" />
+        <option value="$PROJECT_DIR$/venv/path_2.py" />
       </list>
     </option>
   </component>
@@ -510,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535897566939</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="De Some bug">
+      <created>1536472401626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536472401626</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,17 +526,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -543,23 +549,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +581,8 @@
     <MESSAGE value="find the first and second O, find the direction of the circle" />
     <MESSAGE value="Finsh recognition path" />
     <MESSAGE value="Finsh the first versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finsh the first versions" />
+    <MESSAGE value="De Some bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="De Some bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,23 +592,60 @@
           <line>34</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/venv/path_2.py</url>
-          <line>197</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/path_2.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="21" />
+          <folding>
+            <element signature="e#59#175#0" />
+            <element signature="e#214#777#0" />
+            <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/path_2.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3806">
           <caret line="173" column="13" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
           <folding>
+            <element signature="e#59#175#0" />
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
           </folding>
         </state>
       </provider>
@@ -611,8 +655,20 @@
         <state relative-caret-position="4180">
           <caret line="190" column="23" lean-forward="true" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
           <folding>
+            <element signature="e#59#175#0" />
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
           </folding>
         </state>
       </provider>
@@ -629,8 +685,20 @@
         <state relative-caret-position="4334">
           <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
           <folding>
+            <element signature="e#59#175#0" />
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
           </folding>
         </state>
       </provider>
@@ -647,8 +715,20 @@
         <state relative-caret-position="2398">
           <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
           <folding>
+            <element signature="e#59#175#0" />
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
           </folding>
         </state>
       </provider>
@@ -658,8 +738,20 @@
         <state relative-caret-position="1386">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
+            <element signature="e#59#175#0" />
             <element signature="e#214#777#0" />
             <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
           </folding>
         </state>
       </provider>
@@ -798,23 +890,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/path_2.py">
+    <entry file="file://$PROJECT_DIR$/flight_control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="21" />
-          <folding>
-            <element signature="e#214#777#0" />
-            <element signature="e#807#871#0" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flight_control.py">
+    <entry file="file://$PROJECT_DIR$/venv/path_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="815">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#59#175#0" />
+            <element signature="e#214#777#0" />
+            <element signature="e#807#871#0" />
+            <element signature="e#933#1092#0" />
+            <element signature="e#1135#1533#0" />
+            <element signature="e#1580#1779#0" />
+            <element signature="e#1820#2010#0" />
+            <element signature="e#2051#2465#0" />
+            <element signature="e#2512#3225#0" />
+            <element signature="e#3265#3617#0" />
+            <element signature="e#3668#4222#0" />
+            <element signature="e#4257#4289#0" />
+            <element signature="e#4323#5050#0" />
+            <element signature="e#5579#5738#0" />
           </folding>
         </state>
       </provider>
